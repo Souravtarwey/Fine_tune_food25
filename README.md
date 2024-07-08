@@ -14,27 +14,28 @@ Scikit-learn: Machine learning library for data preprocessing and utility functi
 Keras Tuner: Library for hyperparameter tuning of Keras models.
 
 **Project Breakdown**
-1. Dataset Preparation and Exploration
+**1. Dataset Preparation and Exploration**
 Subset Selection: Randomly chose 25 classes from Food-101 dataset for focused analysis.
 Exploratory Data Analysis (EDA): Visualized class distributions, image sizes, and other statistics to understand data characteristics.
 
-2. Data Preprocessing
+**2. Data Preprocessing**
 Data Cleaning: Corrected mislabeled images to ensure data integrity.
 Train/Test Split: Divided dataset into training and validation sets for model evaluation.
 Data Augmentation: Applied augmentation techniques (rotation, shifting, flipping) to training data to enhance model robustness.
 
-3. Model Development
+**3. Model Development**
 Feature Extraction: Employed pretrained models (e.g., InceptionV3, ResNet50) for feature extraction.
 Model Architecture: Added custom classification layers (Conv2D, GlobalAveragePooling2D, Dense, Dropout) on top of feature extractors.
 Fine-Tuning: Unfroze last 10 layers of base model and fine-tuned on augmented data for enhanced performance.
 
-4. Hyperparameter Tuning
+**4. Hyperparameter Tuning**
 Conducted extensive hyperparameter tuning experiments to optimize model performance:
 Adjusted learning rates, batch sizes, optimizer configurations, dropout rates, and layer architectures.
 
-5. Visualization
+**5. Visualization**
 Feature Maps: Visualized activation maps to interpret model behavior and feature extraction capabilities.
 Instructions
+
 
 **Environment Setup**
 Ensure Python environment with necessary libraries (requirements.txt).
