@@ -3,6 +3,10 @@
 **Objective**
 The objective of this project is to develop a robust image classification model using a subset of 25 random classes from the Food-101 dataset. Tasks include preprocessing the dataset, exploring data characteristics through EDA, cleaning erroneous labels, implementing a train/test split, utilizing various pretrained feature extraction models (e.g., InceptionV3, ResNet50), adding necessary classification layers, performing hyperparameter tuning, augmenting data for improved model generalization, and visualizing feature maps of the finalized classifier.
 
+**Food classes used here are**
+Selected classes: ['pulled_pork_sandwich', 'chicken_wings', 'ravioli', 'pizza', 'tuna_tartare', 'miso_soup', 'beignets', 'caprese_salad', 'dumplings', 'chocolate_cake', 'garlic_bread', 'foie_gras', 'onion_rings', 'scallops', 'hot_and_sour_soup', 'shrimp_and_grits', 'omelette', 'eggs_benedict', 'spaghetti_bolognese', 'club_sandwich', 'frozen_yogurt', 'french_toast', 'fried_calamari', 'fried_rice', 'gnocchi']
+
+
 **Libraries Used**
 TensorFlow: Deep learning framework for model development and training.
 Keras: High-level API for building and training deep learning models.
