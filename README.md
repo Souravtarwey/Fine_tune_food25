@@ -6,6 +6,7 @@ The objective of this project is to develop a robust image classification model 
 **Food classes used here are**
 Selected classes: ['pulled_pork_sandwich', 'chicken_wings', 'ravioli', 'pizza', 'tuna_tartare', 'miso_soup', 'beignets', 'caprese_salad', 'dumplings', 'chocolate_cake', 'garlic_bread', 'foie_gras', 'onion_rings', 'scallops', 'hot_and_sour_soup', 'shrimp_and_grits', 'omelette', 'eggs_benedict', 'spaghetti_bolognese', 'club_sandwich', 'frozen_yogurt', 'french_toast', 'fried_calamari', 'fried_rice', 'gnocchi']
 
+**Python notebook** : This file contains all the code that is used to fi
 
 **Libraries Used**
 TensorFlow: Deep learning framework for model development and training.
