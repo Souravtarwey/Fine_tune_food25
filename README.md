@@ -4,7 +4,7 @@
 The objective of this project is to develop a robust image classification model using a subset of 25 random classes from the Food-101 dataset. Tasks include preprocessing the dataset, exploring data characteristics through EDA, cleaning erroneous labels, implementing a train/test split, utilizing various pretrained feature extraction models (e.g., InceptionV3, ResNet50), adding necessary classification layers, performing hyperparameter tuning, augmenting data for improved model generalization, and visualizing feature maps of the finalized classifier.
 
 **Food classes used here are**
-Selected classes: ['pulled_pork_sandwich', 'chicken_wings', 'ravioli', 'pizza', 'tuna_tartare', 'miso_soup', 'beignets', 'caprese_salad', 'dumplings', 'chocolate_cake', 'garlic_bread', 'foie_gras', 'onion_rings', 'scallops', 'hot_and_sour_soup', 'shrimp_and_grits', 'omelette', 'eggs_benedict', 'spaghetti_bolognese', 'club_sandwich', 'frozen_yogurt', 'french_toast', 'fried_calamari', 'fried_rice', 'gnocchi']
+Selected classes: ['scallops', 'dumplings', 'tuna_tartare', 'club_sandwich', 'bibimbap', 'edamame', 'fish_and_chips', 'chicken_quesadilla', 'cup_cakes', 'nachos', 'breakfast_burrito', 'hot_and_sour_soup', 'omelette', 'macaroni_and_cheese', 'tacos', 'takoyaki', 'steak', 'deviled_eggs', 'caesar_salad', 'sashimi', 'shrimp_and_grits', 'samosa', 'hummus', 'waffles', 'foie_gras']
 
 **Python notebook** : This file contains all the code that is used to fi
 
