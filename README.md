@@ -6,10 +6,16 @@ The objective of this project is to develop a robust image classification model 
 **Food classes used here are**
 Selected classes: ['scallops', 'dumplings', 'tuna_tartare', 'club_sandwich', 'bibimbap', 'edamame', 'fish_and_chips', 'chicken_quesadilla', 'cup_cakes', 'nachos', 'breakfast_burrito', 'hot_and_sour_soup', 'omelette', 'macaroni_and_cheese', 'tacos', 'takoyaki', 'steak', 'deviled_eggs', 'caesar_salad', 'sashimi', 'shrimp_and_grits', 'samosa', 'hummus', 'waffles', 'foie_gras']
 
-**Python notebook** : This file contains all the code that is used to fi
+**Python notebook  food_train_25.ipynb** : This file contains all the code that is used to fine tune the pre trained model 
+
+**Running in Google Colab:**
+**main.ipynb** : This file is the main file where we upload the trained model and run the file.
+Upload your model file (my_model(1).zip) to Colab using the file upload feature.
+Execute the script and follow the prompts to enter the image path or URL.
+The script will preprocess the image, classify it using the loaded model, and display the predicted class.
 
 **Libraries Used**
-TensorFlow: Deep learning framework for model development and training.
+TensorFlow version: 2.15.0   #Deep learning framework for model development and training.
 Keras: High-level API for building and training deep learning models.
 NumPy: Fundamental package for numerical computing.
 Pandas: Data manipulation and analysis library for structured data operations.
